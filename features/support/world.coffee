@@ -1,5 +1,4 @@
 zombie = require("zombie")
-HTML5 = require("html5")
 
 World = World = (callback) ->
   @browser = new zombie()

@@ -8,3 +8,5 @@ Feature: The home screen
 
   Scenario:
     Then I should be on a page with title "Where U At?"
+    And I should see a start button
+
