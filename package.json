@@ -1,0 +1,22 @@
+{
+  "name": "where-u-at",
+  "version": "0.0.0",
+  "description": "A Google Street View Game: Where you at?",
+  "main": "none",
+  "dependencies": {
+    "deployd": "~0.6.10",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "cucumber": "~0.3.1",
+    "zombie": "~2.0.0-alpha20"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "author": "Adam Dawkins",
+  "license": "BSD",
+  "gitHead": "3912c250dbc61086a56c07c5a29b4edeb8953956",
+  "readmeFilename": "README.md"
+}
