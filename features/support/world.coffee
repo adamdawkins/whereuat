@@ -1,11 +1,13 @@
-zombie = require('zombie')
+zombie = require("zombie")
+HTML5 = require("html5")
 
 World = World = (callback) ->
   @browser = new zombie()
+
   @visit = (url, callback) ->
-    @browser.visit url, callback
+    @browser.visit url, (err, browser, status) ->
+      callback err, browser, status
+ 
+  callback()
 
-  callback() #tell Cucumber we're finished and use 'this' as the world instance
-
-exports.World = World
-
+exports.World = World;
